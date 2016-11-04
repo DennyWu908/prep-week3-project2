@@ -26,12 +26,25 @@
         
         
       <h2>Question 1:</h2>
+      <form name="q1form">
+        <p>Type in two numbers, and the function will return the smallest of the pair.</p>
+        <input id="firstInt" type="text">
+        <input id="secondInt" type="text">
+      </form>
+        <button id="pickInt">Submit</button>
         <p><span id="q1"></span>
         </p>
         <hr>
         
 
         <h2>Question 2:</h2>
+        <form name="q2form">
+            <p>Type in three numbers, and the function will return the smallest of the trio.</p>
+            <input id="fInt" type="text">
+            <input id="sInt" type="text">
+            <input id="tInt" type="text">
+        </form>
+        <button id="pickAnInt">Submit</button>
         <p><span id="q2"></span>
         </p>
         <hr>
@@ -56,13 +69,26 @@
 
 
         <h2>Question 6:</h2>
+        <form name="q6form">
+            <p>Type in a temperature in Celsius, and the function will convert it into Fahrenheit.</p>
+            <input id="temp" type="text">
+        </form>
+        <button id="giveCel">Submit</button>
         <p><span id="q6"></span>
         </p>
         <hr>
 
 
         <h2>Question 7:</h2>
+        <form name="q7form">
+            <p>Type in a temperature you wish to convert.</p>
+            <input id="tempVal" type="text">
+            <p>Below, specify whether it is a Fahrenheit value you wish to convert to Celsius (by typing "F to C" or vice versa (by typing "C to F").</p>
+            <input id="conType" type="text">
+        </form>
+        <button id="addTemp">Submit</button>
         <p><span id="q7"></span></p>
+        <p><span id="q7a"></span></p>
         <hr>
 
 
@@ -107,7 +133,7 @@
 
     </main>
     
-
+<script src="main.js"></script>
 </body>
 
 </html>
